@@ -9,13 +9,13 @@ C:\Program Files\Unity 2021.3.9f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker1
+AssetImportWorker0
 -projectPath
 C:/Users/redpa/OneDrive/Documents/git/Leo/Leo
 -logFile
-Logs/AssetImportWorker1.log
+Logs/AssetImportWorker0.log
 -srvPort
-61387
+61581
 Successfully changed project path to: C:/Users/redpa/OneDrive/Documents/git/Leo/Leo
 C:/Users/redpa/OneDrive/Documents/git/Leo/Leo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/redpa/OneDrive/Documents/git/Leo/Leo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 63.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,74 +63,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.109809 seconds.
+Registered in 0.091362 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.941 seconds
+- Completed reload, in  5.817 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5942ms)
-		BeginReloadAssembly (5100ms)
+	ReloadAssembly (5818ms)
+		BeginReloadAssembly (4330ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (583ms)
-			LoadAssemblies (5096ms)
+		EndReloadAssembly (1006ms)
+			LoadAssemblies (4326ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (142ms)
+			SetupTypeCache (612ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (324ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (308ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
+				RefreshPlugins (51ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.032456 seconds.
+Registered in 0.009933 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.701 seconds
+- Completed reload, in  7.647 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6702ms)
-		BeginReloadAssembly (158ms)
+	ReloadAssembly (7648ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (6334ms)
-			LoadAssemblies (4209ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (7339ms)
+			LoadAssemblies (4629ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (296ms)
+			SetupTypeCache (860ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (1714ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1738ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (320ms)
-				ProcessInitializeOnLoadMethodAttributes (1187ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (367ms)
+				ProcessInitializeOnLoadMethodAttributes (1215ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
@@ -138,12 +138,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (55.8 KB). Loaded Objects now: 2936.
+Unloading 33 unused Assets / (55.5 KB). Loaded Objects now: 2936.
 Memory consumption went from 109.4 MB to 109.4 MB.
-Total: 4.688400 ms (FindLiveObjects: 0.387300 ms CreateObjectMapping: 0.357100 ms MarkObjects: 3.834800 ms  DeleteObjects: 0.107700 ms)
+Total: 3.288100 ms (FindLiveObjects: 0.222700 ms CreateObjectMapping: 0.164000 ms MarkObjects: 2.807200 ms  DeleteObjects: 0.093000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -156,3 +156,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 898112.078326 seconds.
+  path: Assets/Characters/Leo.psb
+  artifactKey: Guid(80cd31324ccfe7e47a9dee72a1f27836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Leo.psb using Guid(80cd31324ccfe7e47a9dee72a1f27836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a17d19867a4fde33c1beb274ee2fa44') in 0.398217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 311.079393 seconds.
+  path: Assets/Characters/Leo.psb
+  artifactKey: Guid(80cd31324ccfe7e47a9dee72a1f27836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Leo.psb using Guid(80cd31324ccfe7e47a9dee72a1f27836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d5bfacdca6567430d2e0e0dc9259c4') in 0.117302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 727.510265 seconds.
+  path: Assets/Characters/Leo.psb
+  artifactKey: Guid(80cd31324ccfe7e47a9dee72a1f27836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Leo.psb using Guid(80cd31324ccfe7e47a9dee72a1f27836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edeb1d90840f8a5f22928ab07f98e48') in 0.147384 seconds 
